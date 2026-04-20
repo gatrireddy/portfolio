@@ -185,7 +185,7 @@
 }
 
 .projects-preview {
-  text-align: left;
+  text-align: center;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -196,7 +196,7 @@
 .projects-description {
   color: var(--text-muted);
   font-size: var(--font-size-base);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
 }
 
 .projects-link {
