@@ -73,9 +73,7 @@
   font-size: var(--font-size-base);
   color: var(--text-muted);
   line-height: var(--line-height-relaxed);
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .interests-list {
@@ -187,7 +185,7 @@
 }
 
 .projects-preview {
-  text-align: center;
+  text-align: left;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -198,7 +196,7 @@
 .projects-description {
   color: var(--text-muted);
   font-size: var(--font-size-base);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
 }
 
 .projects-link {
