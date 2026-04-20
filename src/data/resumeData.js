@@ -1,20 +1,20 @@
 export const resumeData = {
   name: "Gatri Reddy",
-  title: "AI/ML & Full-Stack Developer",
-  tagline: "Building intelligent systems and modern web experiences",
+  title: "AI/ML Specialist",
+  tagline: "Designing intelligent systems with AI & machine learning",
   email: "gatrireddy@gmail.com",
   phone: "+91 78932 50885",
   github: "https://github.com/gatrireddy",
   linkedin: "https://linkedin.com/in/gatrireddy",
   
-  about: `I'm a B.Tech student in Artificial Intelligence at Mahindra University with hands-on experience in machine learning, NLP, and full-stack development. I have a passion for building intelligent solutions and creating seamless user experiences. Currently, I'm exploring blockchain and Web3 technologies while continuously learning and contributing to open-source projects.`,
+  about: `I'm a B.Tech student in Artificial Intelligence at Mahindra University, passionate about leveraging cutting-edge AI technologies to solve real-world problems. My expertise spans machine learning, NLP, and generative AI applications, with a focus on building intelligent systems that enhance human decision-making. I combine strong fundamentals in AI/ML with practical project experience, continuously exploring how advanced models can drive innovation and create meaningful impact.`,
   
   researchInterests: [
-    "Natural Language Processing & Large Language Models",
+    "Generative AI & Large Language Models",
+    "Natural Language Processing",
     "Machine Learning & Deep Learning",
-    "Web3 & Blockchain Technologies",
-    "Full-Stack Web Development",
-    "Data Science & Analytics"
+    "AI-Driven Applications",
+    "Data Science & Feature Engineering"
   ],
 
   education: [
@@ -34,12 +34,12 @@ export const resumeData = {
 
   experience: [
     {
-      role: "Marketing & Social Media Head",
-      company: "Blockchain Club, Mahindra University",
-      period: "Jan 2025 – Present",
+      role: "AI Research & Development",
+      company: "Personal Projects & Learning",
+      period: "Jul 2024 – Present",
       highlights: [
-        "Coordinating outreach and digital strategy for blockchain-focused initiatives and workshops across MU",
-        "Participated in technical workshops by Aleph Zero, Hyderabad DAO, and Pyor, building hands-on Web3 exposure"
+        "Developed multiple end-to-end AI/ML projects including NLP models, predictive analytics, and generative AI applications",
+        "Focused on fine-tuning LLMs, building production-ready ML pipelines, and optimizing model performance with limited compute resources"
       ]
     }
   ],
@@ -47,55 +47,55 @@ export const resumeData = {
   projects: [
     {
       name: "RESCORE — AI-Powered Resume Analyzer",
-      description: "Built and significantly extended an open-source resume analyzer, fixing 17 bugs across build, React component, and CSS layers with a full design system overhaul. Integrated AI-driven resume scoring, feedback generation, and keyword analysis to help users optimise resumes for ATS systems.",
-      technologies: ["React", "Node.js", "OpenAI API", "CSS"],
-      github: "https://github.com/gatrireddy/rescore",
+      description: "Built and significantly extended an open-source resume analyzer with AI-driven resume scoring and feedback generation. Integrated OpenAI API for intelligent keyword analysis and ATS optimization recommendations. Fixed 17 bugs across build, React components, and CSS with complete design system overhaul.",
+      technologies: ["React", "Node.js", "OpenAI API", "Generative AI"],
+      github: "https://github.com/gatrireddy/ai-resume-analyser",
       date: "Feb 2026"
     },
     {
-      name: "Dishly — Recipe Search Web Application",
-      description: "Built a full-stack recipe search app using React hooks, Spoonacular API via Axios, dietary filters, localStorage favourites, and React Router navigation. Features smooth transitions and responsive design.",
-      technologies: ["React.js", "Axios", "Material-UI", "REST API"],
-      github: "https://github.com/gatrireddy/dishly",
-      date: "Nov 2025"
-    },
-    {
       name: "Legal & Medical Document Summarization",
-      description: "Fine-tuned T5 with LoRA (rank=8, α=32) on BillSum and PubMed datasets for cross-domain abstractive summarization with limited GPU resources. Evaluated outputs using ROUGE metrics against Lead-3 and TextRank extractive baselines.",
-      technologies: ["Python", "T5", "LoRA", "HuggingFace"],
-      github: "https://github.com/gatrireddy/doc-summarizer",
+      description: "Fine-tuned T5 transformer with LoRA (rank=8, α=32) for cross-domain abstractive summarization on BillSum and PubMed datasets. Achieved efficient performance on limited GPU resources with ROUGE metrics evaluation against extractive baselines.",
+      technologies: ["Python", "T5", "LoRA", "HuggingFace", "NLP"],
+      github: "https://github.com/gatrireddy/Legal-Healthcare-Document-Summarization",
       date: "Oct 2025"
     },
     {
       name: "HR Attrition & Salary Prediction — SalaryInsight",
-      description: "Built a two-stage ML pipeline combining classification (attrition probability) and regression (salary forecasting) on the IBM HR Analytics dataset. Computed expected financial loss per employee using P(Attrition) x Predicted Salary.",
-      technologies: ["Python", "Scikit-learn", "XGBoost"],
-      github: "https://github.com/gatrireddy/salaryinsight",
+      description: "Engineered a two-stage ML pipeline combining classification (attrition probability) and regression (salary forecasting) using XGBoost. Computed expected financial loss per employee and generated comprehensive feature importance analysis.",
+      technologies: ["Python", "XGBoost", "Scikit-learn", "ML Engineering"],
+      github: "https://github.com/gatrireddy/SalaryInsight",
       date: "May 2025"
     },
     {
       name: "F1 Race Result Prediction Pipeline",
-      description: "Engineered race, driver, and circuit-level features (DNFs, pit stops, weather, penalties) from FastF1 API across 2018-2025 seasons. Trained XGBoost and Random Forest models with Monte Carlo simulations.",
-      technologies: ["Python", "XGBoost", "FastF1", "Monte Carlo"],
-      github: "https://github.com/gatrireddy/f1-prediction",
+      description: "Engineered comprehensive race, driver, and circuit-level features from FastF1 API across 2018-2025 seasons. Trained ensemble models (XGBoost, Random Forest) with Monte Carlo simulations for probabilistic race outcome forecasting.",
+      technologies: ["Python", "XGBoost", "FastF1", "Monte Carlo Simulation"],
+      github: "https://github.com/gatrireddy/F1_Prediction",
       date: "May 2025"
+    },
+    {
+      name: "Dishly — Recipe Search Application",
+      description: "Full-stack recipe search platform leveraging Spoonacular API with intelligent dietary filtering, persistent favorites management, and React Router navigation for seamless user experience.",
+      technologies: ["React.js", "REST API", "Axios", "State Management"],
+      github: "https://github.com/gatrireddy/Dishly",
+      date: "Nov 2025"
     }
   ],
 
   skills: {
-    languages: ["Python", "JavaScript", "Java", "C", "C#", "SQL", "HTML", "CSS"],
-    aiml: ["NLP", "LLMs", "Fine-tuning (LoRA)", "XGBoost", "Random Forest", "Scikit-learn", "HuggingFace Transformers", "Feature Engineering"],
-    frameworks: ["React.js", "Node.js", "Axios", "Material-UI", "Pandas", "NumPy", "Matplotlib"],
-    tools: ["Git", "GitHub", "Jupyter Notebook", "Google Colab", "VS Code", "REST APIs"],
-    concepts: ["Machine Learning", "Deep Learning", "NLP", "OOP", "DBMS", "DSA"]
+    languages: ["Python", "JavaScript", "Java", "SQL", "HTML", "CSS"],
+    aiml: ["Generative AI", "LLMs", "NLP", "Fine-tuning (LoRA)", "XGBoost", "Scikit-learn", "HuggingFace Transformers", "Feature Engineering", "Deep Learning"],
+    frameworks: ["React.js", "Pandas", "NumPy", "Matplotlib", "PyTorch", "TensorFlow"],
+    tools: ["Git", "GitHub", "Jupyter Notebook", "Google Colab", "VS Code", "Hugging Face Hub"],
+    concepts: ["Machine Learning", "Deep Learning", "NLP", "Transformers", "Data Science", "Model Optimization"]
   },
 
   achievements: [
-    "Winner — Web3 Buidlathon",
-    "MU Capture The Flag — Top 10 (5th Bridge, 2025)",
     "AI Student of the Year Participant — AI Hub & Google Gemini Hackathon",
-    "Shell Shock 2025 — Cybersecurity Hackathon Participant",
-    "Google ML Crash Course",
-    "NGO Volunteer | Sports: Football, Kho-Kho"
+    "MU Capture The Flag — Top 10 (5th Bridge, 2025)",
+    "Google ML Crash Course Completed",
+    "Multiple AI/ML Projects in Production",
+    "Open Source Contributor",
+    "Passionate Learner | Sports: Football, Kho-Kho"
   ]
 };

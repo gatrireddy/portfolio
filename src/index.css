@@ -5,21 +5,21 @@
 }
 
 :root {
-  /* Light mode colors */
-  --color-bg-light: #ffffff;
-  --color-bg-secondary-light: #f5f5f5;
-  --color-text-light: #1a1a1a;
-  --color-text-muted-light: #666666;
-  --color-accent-light: #2563eb;
-  --color-border-light: #e0e0e0;
+  /* Pastel Light mode colors */
+  --color-bg-light: #fafaf8;
+  --color-bg-secondary-light: #f0ebe5;
+  --color-text-light: #2d2420;
+  --color-text-muted-light: #6b6561;
+  --color-accent-light: #a78bfa;
+  --color-border-light: #e8dfd5;
   
-  /* Dark mode colors */
-  --color-bg-dark: #0f0f0f;
-  --color-bg-secondary-dark: #1a1a1a;
-  --color-text-dark: #ffffff;
-  --color-text-muted-dark: #b0b0b0;
-  --color-accent-dark: #3b82f6;
-  --color-border-dark: #333333;
+  /* Pastel Dark mode colors */
+  --color-bg-dark: #1a1814;
+  --color-bg-secondary-dark: #2a2420;
+  --color-text-dark: #f5f1ed;
+  --color-text-muted-dark: #b8b0a8;
+  --color-accent-dark: #c4b5fd;
+  --color-border-dark: #3d3530;
   
   /* Dynamic colors based on theme */
   --bg: var(--color-bg-dark);
@@ -114,7 +114,7 @@ main {
   padding: var(--spacing-3xl) var(--spacing-lg);
 }
 
-/* Draggable canvas background effect */
+/* Subtle gradient background effect */
 .app::before {
   content: '';
   position: fixed;
@@ -123,39 +123,30 @@ main {
   right: 0;
   bottom: 0;
   background: 
-    radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 40% 0%, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
+    linear-gradient(135deg, transparent 0%, rgba(196, 181, 253, 0.03) 100%),
+    radial-gradient(circle at 20% 50%, rgba(196, 181, 253, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(196, 181, 253, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 40% 0%, rgba(196, 181, 253, 0.05) 0%, transparent 50%);
   pointer-events: none;
   z-index: -1;
 }
 
 [data-theme="light"] .app::before {
   background: 
-    radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(37, 99, 235, 0.04) 0%, transparent 50%),
-    radial-gradient(circle at 40% 0%, rgba(37, 99, 235, 0.06) 0%, transparent 50%);
+    linear-gradient(135deg, transparent 0%, rgba(167, 139, 250, 0.02) 100%),
+    radial-gradient(circle at 20% 50%, rgba(167, 139, 250, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(167, 139, 250, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 40% 0%, rgba(167, 139, 250, 0.04) 0%, transparent 50%);
 }
 
 /* Section title styling */
 .section-title {
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-xl);
   color: var(--text);
   position: relative;
-  padding-bottom: var(--spacing-lg);
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 60px;
-  height: 3px;
-  background: linear-gradient(90deg, var(--accent), transparent);
-  border-radius: var(--radius-sm);
+  padding-bottom: 0;
 }
 
 /* Link styling */
