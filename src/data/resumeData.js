@@ -3,7 +3,9 @@ export const resumeData = {
   title: "AI/ML Specialist",
   tagline: "Crafting intelligent solutions through AI and machine learning",
   email: "gatrireddy@gmail.com",
+  collegeEmail: "se23uari109@mahindrauniversity.edu.in",
   phone: "+91 78932 50885",
+  profileImage: "/profile.jpg",
   github: "https://github.com/gatrireddy",
   linkedin: "https://linkedin.com/in/gatrireddy",
   

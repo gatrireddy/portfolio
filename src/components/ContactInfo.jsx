@@ -13,10 +13,26 @@ function ContactInfo({ data }) {
   return (
     <section className="contact-info">
       <div className="contact-item">
-        <label>Email</label>
-        <button onClick={handleCopyEmail} className="email-button" title="Click to copy">
+        <label>Personal Email</label>
+        <button onClick={() => {
+          navigator.clipboard.writeText(data.email);
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000);
+        }} className="email-button" title="Click to copy">
           {data.email}
-          <span className="copy-indicator">{copied ? '✓ Copied!' : '📋 Copy'}</span>
+          <span className="copy-indicator">📋 Copy</span>
+        </button>
+      </div>
+
+      <div className="contact-item">
+        <label>College Email</label>
+        <button onClick={() => {
+          navigator.clipboard.writeText(data.collegeEmail);
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000);
+        }} className="email-button" title="Click to copy">
+          {data.collegeEmail}
+          <span className="copy-indicator">📋 Copy</span>
         </button>
       </div>
       

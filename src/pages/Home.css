@@ -22,6 +22,17 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-lg);
+  align-items: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+  box-shadow: 0 8px 24px rgba(240, 139, 196, 0.2);
+  animation: slideUp 0.6s ease-out;
 }
 
 .hero-title {
@@ -58,6 +69,33 @@
   margin: 0;
   font-weight: var(--font-weight-regular);
   animation: slideUp 0.6s ease-out 0.2s both;
+}
+
+.hero-contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+  animation: slideUp 0.6s ease-out 0.3s both;
+}
+
+.hero-phone,
+.hero-email {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.hero-phone a,
+.hero-email a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+
+.hero-phone a:hover,
+.hero-email a:hover {
+  text-decoration: underline;
 }
 
 .about-section,

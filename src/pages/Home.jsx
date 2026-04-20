@@ -10,9 +10,15 @@ function Home() {
     <main className="home-page">
       <div className="hero-section">
         <div className="hero-content">
+          <img src={resumeData.profileImage} alt="Gatri Reddy" className="profile-image" />
           <h1 className="hero-title">{resumeData.name}</h1>
           <p className="hero-subtitle">{resumeData.title}</p>
           <p className="hero-tagline">{resumeData.tagline}</p>
+          <div className="hero-contact">
+            <p className="hero-phone">📱 <a href={`tel:${resumeData.phone.replace(/\s/g, '')}`}>{resumeData.phone}</a></p>
+            <p className="hero-email">📧 <a href={`mailto:${resumeData.email}`}>{resumeData.email}</a></p>
+            <p className="hero-email">🎓 <a href={`mailto:${resumeData.collegeEmail}`}>{resumeData.collegeEmail}</a></p>
+          </div>
         </div>
       </div>
 
