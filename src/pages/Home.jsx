@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import ContactInfo from '../components/ContactInfo';
 import SkillsSection from '../components/SkillsSection';
 import { resumeData } from '../data/resumeData';
+import profileImage from '../assets/profile.jpg';
 import './Home.css';
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
     <main className="home-page">
       <div className="hero-section">
         <div className="hero-content">
-          <img src={resumeData.profileImage} alt="Gatri Reddy" className="profile-image" />
+          <img src={profileImage} alt="Gatri Reddy" className="profile-image" />
           <h1 className="hero-title">{resumeData.name}</h1>
           <p className="hero-subtitle">{resumeData.title}</p>
           <p className="hero-tagline">{resumeData.tagline}</p>
