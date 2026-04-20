@@ -5,21 +5,21 @@
 }
 
 :root {
-  /* Pastel Light mode colors */
-  --color-bg-light: #fafaf8;
-  --color-bg-secondary-light: #f0ebe5;
-  --color-text-light: #2d2420;
-  --color-text-muted-light: #6b6561;
-  --color-accent-light: #a78bfa;
-  --color-border-light: #e8dfd5;
+  /* Pink-based Pastel Light mode colors */
+  --color-bg-light: #faf8f9;
+  --color-bg-secondary-light: #f5eef2;
+  --color-text-light: #2d1f28;
+  --color-text-muted-light: #6b5a63;
+  --color-accent-light: #e879a8;
+  --color-border-light: #e8d9e3;
   
-  /* Pastel Dark mode colors */
-  --color-bg-dark: #1a1814;
-  --color-bg-secondary-dark: #2a2420;
-  --color-text-dark: #f5f1ed;
-  --color-text-muted-dark: #b8b0a8;
-  --color-accent-dark: #c4b5fd;
-  --color-border-dark: #3d3530;
+  /* Pink-based Pastel Dark mode colors */
+  --color-bg-dark: #1a1114;
+  --color-bg-secondary-dark: #2a1f26;
+  --color-text-dark: #f5f1f3;
+  --color-text-muted-dark: #b8a5b0;
+  --color-accent-dark: #f08bc4;
+  --color-border-dark: #3d2d35;
   
   /* Dynamic colors based on theme */
   --bg: var(--color-bg-dark);
@@ -114,7 +114,7 @@ main {
   padding: var(--spacing-3xl) var(--spacing-lg);
 }
 
-/* Subtle gradient background effect */
+/* Subtle gradient background with pink accents */
 .app::before {
   content: '';
   position: fixed;
@@ -123,20 +123,22 @@ main {
   right: 0;
   bottom: 0;
   background: 
-    linear-gradient(135deg, transparent 0%, rgba(196, 181, 253, 0.03) 100%),
-    radial-gradient(circle at 20% 50%, rgba(196, 181, 253, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(196, 181, 253, 0.04) 0%, transparent 50%),
-    radial-gradient(circle at 40% 0%, rgba(196, 181, 253, 0.05) 0%, transparent 50%);
+    linear-gradient(135deg, transparent 0%, rgba(240, 139, 196, 0.03) 100%),
+    radial-gradient(circle at 20% 50%, rgba(240, 139, 196, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(240, 139, 196, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 40% 0%, rgba(240, 139, 196, 0.05) 0%, transparent 50%),
+    linear-gradient(to bottom, transparent 0%, rgba(240, 139, 196, 0.02) 50%, transparent 100%);
   pointer-events: none;
   z-index: -1;
 }
 
 [data-theme="light"] .app::before {
   background: 
-    linear-gradient(135deg, transparent 0%, rgba(167, 139, 250, 0.02) 100%),
-    radial-gradient(circle at 20% 50%, rgba(167, 139, 250, 0.06) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(167, 139, 250, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 40% 0%, rgba(167, 139, 250, 0.04) 0%, transparent 50%);
+    linear-gradient(135deg, transparent 0%, rgba(232, 121, 168, 0.02) 100%),
+    radial-gradient(circle at 20% 50%, rgba(232, 121, 168, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(232, 121, 168, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 40% 0%, rgba(232, 121, 168, 0.04) 0%, transparent 50%),
+    linear-gradient(to bottom, transparent 0%, rgba(232, 121, 168, 0.015) 50%, transparent 100%);
 }
 
 /* Section title styling */

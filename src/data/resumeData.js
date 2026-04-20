@@ -1,13 +1,13 @@
 export const resumeData = {
   name: "Gatri Reddy",
   title: "AI/ML Specialist",
-  tagline: "Designing intelligent systems with AI & machine learning",
+  tagline: "Crafting intelligent solutions through AI and machine learning",
   email: "gatrireddy@gmail.com",
   phone: "+91 78932 50885",
   github: "https://github.com/gatrireddy",
   linkedin: "https://linkedin.com/in/gatrireddy",
   
-  about: `I'm a B.Tech student in Artificial Intelligence at Mahindra University, passionate about leveraging cutting-edge AI technologies to solve real-world problems. My expertise spans machine learning, NLP, and generative AI applications, with a focus on building intelligent systems that enhance human decision-making. I combine strong fundamentals in AI/ML with practical project experience, continuously exploring how advanced models can drive innovation and create meaningful impact.`,
+  about: `I'm a B.Tech student in Artificial Intelligence at Mahindra University, passionate about leveraging cutting-edge AI technologies to solve real-world problems. My expertise spans machine learning, natural language processing, and generative AI applications, with a focus on building intelligent systems that enhance human decision-making. I combine strong fundamentals in AI and ML with practical project experience, continuously exploring how advanced models can drive innovation and create meaningful impact.`,
   
   researchInterests: [
     "Generative AI & Large Language Models",
@@ -47,21 +47,21 @@ export const resumeData = {
   projects: [
     {
       name: "RESCORE — AI-Powered Resume Analyzer",
-      description: "Built and significantly extended an open-source resume analyzer with AI-driven resume scoring and feedback generation. Integrated OpenAI API for intelligent keyword analysis and ATS optimization recommendations. Fixed 17 bugs across build, React components, and CSS with complete design system overhaul.",
+      description: "Built and significantly extended an open-source resume analyzer with AI-driven resume scoring and feedback generation. Integrated OpenAI API for intelligent keyword analysis and ATS optimization recommendations. Fixed 17 critical bugs across the build, React components, and CSS with a complete design system overhaul.",
       technologies: ["React", "Node.js", "OpenAI API", "Generative AI"],
       github: "https://github.com/gatrireddy/ai-resume-analyser",
       date: "Feb 2026"
     },
     {
       name: "Legal & Medical Document Summarization",
-      description: "Fine-tuned T5 transformer with LoRA (rank=8, α=32) for cross-domain abstractive summarization on BillSum and PubMed datasets. Achieved efficient performance on limited GPU resources with ROUGE metrics evaluation against extractive baselines.",
+      description: "Fine-tuned T5 transformer with LoRA (rank=8, α=32) for cross-domain abstractive summarization on BillSum and PubMed datasets. Achieved efficient performance on limited GPU resources with ROUGE metric evaluation against extractive baselines.",
       technologies: ["Python", "T5", "LoRA", "HuggingFace", "NLP"],
       github: "https://github.com/gatrireddy/Legal-Healthcare-Document-Summarization",
       date: "Oct 2025"
     },
     {
       name: "HR Attrition & Salary Prediction — SalaryInsight",
-      description: "Engineered a two-stage ML pipeline combining classification (attrition probability) and regression (salary forecasting) using XGBoost. Computed expected financial loss per employee and generated comprehensive feature importance analysis.",
+      description: "Engineered a two-stage ML pipeline combining classification (attrition probability) and regression (salary forecasting) using XGBoost. Computed expected financial loss per employee and generated comprehensive feature importance visualizations.",
       technologies: ["Python", "XGBoost", "Scikit-learn", "ML Engineering"],
       github: "https://github.com/gatrireddy/SalaryInsight",
       date: "May 2025"
@@ -75,7 +75,7 @@ export const resumeData = {
     },
     {
       name: "Dishly — Recipe Search Application",
-      description: "Full-stack recipe search platform leveraging Spoonacular API with intelligent dietary filtering, persistent favorites management, and React Router navigation for seamless user experience.",
+      description: "Full-stack recipe search platform leveraging the Spoonacular API with intelligent dietary filtering, persistent favorites management, and React Router navigation for a seamless user experience.",
       technologies: ["React.js", "REST API", "Axios", "State Management"],
       github: "https://github.com/gatrireddy/Dishly",
       date: "Nov 2025"
